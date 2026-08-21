@@ -1,0 +1,11 @@
+{
+    "name": "julielou/php-ci-app",
+    "description": "PHP project for Jenkins CI",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
